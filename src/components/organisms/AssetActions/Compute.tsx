@@ -146,7 +146,6 @@ export default function Compute({
         {isLoading ? (
           <Loader message={computeStepText} />
         ) : (
-          <Alert text="Compute is coming back at a later stage." state="info" />
            <Button
              style="primary"
              onClick={() => startJob()}
