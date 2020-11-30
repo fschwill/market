@@ -147,13 +147,13 @@ export default function Compute({
           <Loader message={computeStepText} />
         ) : (
           <Alert text="Compute is coming back at a later stage." state="info" />
-          // <Button
-          //   style="primary"
-          //   onClick={() => startJob()}
-          //   disabled={isComputeButtonDisabled}
-          // >
-          //   {hasDatatoken || hasPreviousOrder ? 'Start job' : 'Buy'}
-          // </Button>
+           <Button
+             style="primary"
+             onClick={() => startJob()}
+             disabled={isComputeButtonDisabled}
+           >
+             {hasDatatoken || hasPreviousOrder ? 'Start job' : 'Buy'}
+           </Button>
         )}
       </div>
 
