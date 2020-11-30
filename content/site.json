@@ -2,7 +2,7 @@
   "site": {
     "siteTitle": "Ocean Protocol Data Marketplace",
     "siteTagline": "URV - MESIIA",
-    "siteUrl": "",
+    "siteUrl": "https://market.oceanprotocol.com",
     "siteIcon": "node_modules/@oceanprotocol/art/logo/favicon-white.png",
     "siteImage": "../src/images/share.png",
     "copyright": "",
